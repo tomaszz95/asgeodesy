@@ -24,7 +24,7 @@ The page is created in Polish language.</p>
 - git / github.
 
 <div align='center'>
-<img src='./src/assets/readme/mainSite1.jpg'>
-<img src='./src/assets/readme/mainSite2.jpg'>
-<img src='./src/assets/readme/usage.jpg'>
+<img src='/readme/sitephoto1.jpg'>
+<img src='/readme/sitephoto2.jpg'>
+<img src='/readme/sitephoto3.jpg'>
 </div>
