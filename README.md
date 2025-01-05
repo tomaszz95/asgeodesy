@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1>Geodesy site</h1>
 
-## Getting Started
+<p>Hello, I present to you my company website project - completely finished and functional website for geodesy company.
+I work as a land surveyor in a moment of creating the page, so I decided to develop a website for a made-up geodesic company.
+The page is created in Polish language.</p>
 
-First, run the development server:
+<p>I encourage you to check the website - uploaded to vercel <a href='https://asgeodesy.netlify.app/'>ASGeodesy</a>.</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<h2>📫 Page contains</h2>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- main site and three site pages (services, about us and contact),
+- custom page 404 and redirects,
+- responsive design,
+- accessibility practices,
+- SEO practices,
+- basic design requirements preserved.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<h2>🛠 Used tools / programming languages / technologies</h2>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- NextJS,
+- ReactJS
+- Typescript
+- JavaScript,
+- git / github.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<div align='center'>
+<img src='./src/assets/readme/mainSite1.jpg'>
+<img src='./src/assets/readme/mainSite2.jpg'>
+<img src='./src/assets/readme/usage.jpg'>
+</div>
