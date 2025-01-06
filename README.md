@@ -1,8 +1,7 @@
 <h1>Geodesy site</h1>
 
 <p>Hello, I present to you my company website project - completely finished and functional website for geodesy company.
-I work as a land surveyor in a moment of creating the page, so I decided to develop a website for a made-up geodesic company.
-The page is created in Polish language.</p>
+I work as a land surveyor in a moment of creating the page, so I decided to develop a website for a made-up geodesic company.</p>
 
 <p>I encourage you to check the website - uploaded to vercel <a href='https://asgeodesy.netlify.app/'>ASGeodesy</a>.</p>
 
@@ -24,7 +23,7 @@ The page is created in Polish language.</p>
 - git / github.
 
 <div align='center'>
-<img src='/readme/sitephoto1.jpg'>
-<img src='/readme/sitephoto2.jpg'>
-<img src='/readme/sitephoto3.jpg'>
+<img src='./public/readme/sitephoto1.jpg'>
+<img src='./public/readme/sitephoto2.jpg'>
+<img src='./public/readme/sitephoto3.jpg'>
 </div>
