@@ -20,6 +20,14 @@
     background-color: var(--main-color);
 }
 
+.title.reverse {
+    color: var(--pure-white);
+}
+
+.underline.reverse {
+    background-color: var(--complementary-color);
+}
+
 @media (min-width: 786px) {
     .underline {
         width: 120px;
