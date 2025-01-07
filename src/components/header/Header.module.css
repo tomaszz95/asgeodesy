@@ -30,6 +30,7 @@
     color: var(--primary-color);
     text-align: center;
     z-index: 10;
+    animation: letters 1s;
 }
 
 .homepage {
@@ -44,6 +45,21 @@
 .aboutus {
     background-image: url('../../../public/photos/aboutusHeroSmall.jpg');
     background-position: center;
+}
+
+@keyframes letters {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, 350%);
+    }
+    80% {
+        opacity: 1;
+        transform: translate(-50%, -55%);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
 }
 
 @media (min-width: 1100px) {

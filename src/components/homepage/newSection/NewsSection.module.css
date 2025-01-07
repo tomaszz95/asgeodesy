@@ -1,0 +1,8 @@
+.section {
+    background-image: var(--light-blue-gradient);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}

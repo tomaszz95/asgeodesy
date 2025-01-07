@@ -1,0 +1,112 @@
+.newsList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    max-width: 1300px;
+    width: 100%;
+}
+
+.card {
+    position: relative;
+    height: 450px;
+    width: 100%;
+    max-width: 350px;
+    color: var(--pure-white);
+    text-align: center;
+    transition:
+        transform 1s,
+        opacity 1s;
+    background-size: cover;
+    background-position: center;
+    perspective: 1000px;
+    border-radius: 15px;
+}
+
+.cardFront {
+    position: relative;
+    padding: 2rem;
+    height: 100%;
+    border-radius: 8px;
+    background-size: cover;
+    transition:
+        transform 1s,
+        opacity 1s;
+    background-size: cover;
+    background-position: center;
+}
+
+.cardFront h3 {
+    font-style: italic;
+    font-size: 1.4rem;
+}
+
+.cardFront p {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    font-size: 1.2rem;
+}
+
+.cardBack {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: radial-gradient(circle at top right, rgb(0, 78, 255) 0%, rgb(8, 167, 199) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+    opacity: 0;
+    transform: rotateY(180deg);
+    transition:
+        transform 1s,
+        opacity 1s;
+}
+
+.cardBack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.cardBack span,
+.cardBack p {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--pure-white);
+}
+
+.cardBack span:last-child,
+.cardBack p:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.card:hover .cardFront {
+    transform: rotateY(180deg);
+    opacity: 0;
+}
+
+.card:hover .cardBack {
+    transform: rotateY(0);
+    opacity: 1;
+}
+
+.blue {
+    background-image: var(--light-blue-gradient), url('../../../../public/photos/card1.jpg');
+}
+
+.purple {
+    background-image: var(--blue-gradient), url('../../../../public/photos/card2.jpg');
+}
+
+.pink {
+    background-image: var(--purple-gradient), url('../../../../public/photos/card3.jpg');
+}

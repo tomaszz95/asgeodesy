@@ -1,0 +1,95 @@
+.listItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 0 3px 2px var(--primary-color);
+    background-color: var(--pure-white);
+    border-radius: 12px;
+    line-height: 1.4rem;
+    transition:
+        opacity 1s,
+        transform 1s;
+    transform: translateX(-200%);
+}
+
+.right.animate {
+    animation: newsRight 1s forwards;
+}
+
+.left.animate {
+    animation: newsLeft 1s forwards;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition:
+        opacity 0.6s ease,
+        transform 0.6s ease;
+}
+
+.itemHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.listTitle {
+    text-align: center;
+    font-size: 1.3rem;
+    color: var(--complementary-color);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.listCaption {
+    font-size: 1.1rem;
+}
+
+@keyframes newsLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-200%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes newsRight {
+    from {
+        opacity: 0;
+        transform: translateX(200%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@media (min-width: 1100px) {
+    .listItem {
+        gap: 2.6rem;
+        padding: 3rem;
+    }
+
+    .itemHeading {
+        font-size: 1.2rem;
+    }
+
+    .listTitle {
+        font-size: 1.4rem;
+    }
+
+    .listCaption {
+        font-size: 1.2rem;
+    }
+}

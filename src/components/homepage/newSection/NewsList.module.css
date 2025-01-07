@@ -1,0 +1,16 @@
+.newsList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.newsList a {
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.newsList a:hover {
+    text-decoration: underline;
+}
