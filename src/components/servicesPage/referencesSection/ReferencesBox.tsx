@@ -5,17 +5,9 @@ import Image from 'next/image'
 
 import ReferencesModal from './ReferencesModal'
 
-import References1 from '../../../../public/photos/ref1.jpg'
-import References2 from '../../../../public/photos/ref2.jpg'
-import References3 from '../../../../public/photos/ref3.jpg'
+import referencesItems from '../../../contants/referencesItems'
 
 import styles from './ReferencesBox.module.css'
-
-const images = [
-    { url: References1, alt: 'List referencyjny od firmy X' },
-    { url: References2, alt: 'List referencyjny od firmy Y' },
-    { url: References3, alt: 'List referencyjny od firmy Z' },
-]
 
 const ReferencesBox = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState<number | null>(null)
@@ -30,10 +22,10 @@ const ReferencesBox = () => {
 
     return (
         <div className={styles.container}>
-            {images.map((image, index) => (
+            {referencesItems.map((image, index) => (
                 <Image
                     key={index}
-                    src={image.url}
+                    src={image.photo}
                     alt={image.alt}
                     width={180}
                     height={220}
@@ -44,9 +36,9 @@ const ReferencesBox = () => {
 
             {currentImageIndex !== null && (
                 <ReferencesModal
-                    image={images[currentImageIndex]}
+                    image={referencesItems[currentImageIndex]}
                     closeModal={closeModal}
-                    images={images}
+                    images={referencesItems}
                     currentIndex={currentImageIndex}
                     onImageHandler={setCurrentImageIndex}
                 />

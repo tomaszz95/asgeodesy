@@ -23,7 +23,7 @@ const NewsItem = ({ children, title, date, author, caption, direction }: Compone
 
         const handleScroll = () => {
             const scrollPosition = window.scrollY
-            const itemPosition = itemRef.current!.offsetTop - 1000
+            const itemPosition = itemRef.current!.offsetTop - 1100
 
             if (Math.abs(scrollPosition - lastScrollY.current) >= 50 && itemPosition !== undefined) {
                 if (scrollPosition > itemPosition) {

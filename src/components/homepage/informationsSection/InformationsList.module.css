@@ -55,10 +55,10 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: radial-gradient(circle at top right, rgb(0, 78, 255) 0%, rgb(8, 167, 199) 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: radial-gradient(circle at top right, rgb(0, 78, 255) 0%, rgb(8, 167, 199) 100%);
     border-radius: 8px;
     opacity: 0;
     transform: rotateY(180deg);
@@ -78,8 +78,8 @@
 
 .cardBack span,
 .cardBack p {
-    font-size: 1rem;
     padding-bottom: 1rem;
+    font-size: 1rem;
     border-bottom: 1px solid var(--pure-white);
 }
 

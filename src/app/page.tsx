@@ -3,6 +3,12 @@ import IntroductionSection from '../components/homepage/introductionSection/Intr
 import NewsSection from '../components/homepage/newSection/NewsSection'
 import InformationsSection from '../components/homepage/informationsSection/InformationsSection'
 
+export const metadata = {
+    title: 'ASGeodezja | Usługi geodezyjne',
+    description:
+        'Świadczymy najwyższej jakości usługi geodezyjne - mapy, inwentaryzacje, wytyczenia, podziały. Oferujemy atrakcyjne ceny, rzetelność i pełny profesjonalizm.',
+}
+
 const Homepage = () => {
     return (
         <main>

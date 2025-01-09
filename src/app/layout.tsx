@@ -13,8 +13,9 @@ const montserrat = Montserrat({
 })
 
 export const metadata = {
-    title: 'ASGeodesy - Homepage',
-    description: 'ASGeodesy main site',
+    title: 'ASGeodezja | Usługi geodezyjne',
+    description:
+        'Świadczymy najwyższej jakości usługi geodezyjne - mapy, inwentaryzacje, wytyczenia, podziały. Oferujemy atrakcyjne ceny, rzetelność i pełny profesjonalizm.',
 }
 
 export default function RootLayout({

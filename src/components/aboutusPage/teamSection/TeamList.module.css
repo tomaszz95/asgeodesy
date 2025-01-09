@@ -1,0 +1,15 @@
+.teamList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    padding: 0 1rem;
+    max-width: 1200px;
+}
+
+@media (min-width: 1100px) {
+    .teamList {
+        gap: 6rem;
+    }
+}
