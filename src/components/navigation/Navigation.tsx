@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Image from 'next/image'
 
 import DesktopNav from './DesktopNav'
@@ -6,7 +7,6 @@ import MobileNav from './MobileNav'
 import Logo from '../../../public/photos/logo.png'
 
 import styles from './Navigation.module.css'
-import Link from 'next/link'
 
 const Navigation = () => {
     return (

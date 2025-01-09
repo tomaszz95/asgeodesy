@@ -1,19 +1,24 @@
 'use client'
 
 import Image, { StaticImageData } from 'next/image'
-
+import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
 
-import styles from './OfferItem.module.css'
+import MobileIcon from '../../../../public/icons/mobile.png'
+import EmailIcon from '../../../../public/icons/mail.png'
+
+import styles from './TeamMemberCard.module.css'
 
 type ComponentType = {
-    children: React.ReactNode
-    title: string
-    icon: StaticImageData
-    color: string
+    name: string
+    position: string
+    description: string
+    email: string
+    phone: string
+    photo: StaticImageData
 }
 
-const OfferItem = ({ children, title, icon, color }: ComponentType) => {
+const TeamMemberCard = ({ name, position, description, email, phone, photo }: ComponentType) => {
     const [isVisible, setIsVisible] = useState(false)
     const itemRef = useRef<HTMLLIElement | null>(null)
     const lastScrollY = useRef(0)
@@ -48,17 +53,26 @@ const OfferItem = ({ children, title, icon, color }: ComponentType) => {
     }, [])
 
     return (
-        <li
-            ref={itemRef}
-            className={`${styles.offerItem} ${color === 'blue' ? styles.blue : color === 'purple' ? styles.purple : styles.pink} ${
-                isVisible ? styles.animate : ''
-            }`}
-        >
-            <Image src={icon} alt="" />
-            <h3>{title}</h3>
-            <p>{children}</p>
+        <li className={`${styles.card} ${isVisible ? styles.animate : ''}`} ref={itemRef}>
+            <h3>{name}</h3>
+            <span>{position}</span>
+            <p>{description}</p>
+            <div className={styles.box}>
+                <Image src={EmailIcon} alt="" />
+                <Link href={`mailto:${email}`} aria-label={`Email do ${email}`}>
+                    {email}
+                </Link>
+            </div>
+            <div className={styles.box}>
+                <Image src={MobileIcon} alt="" />
+                <Link href={`tel:${phone}`} aria-label={`Telefon komórkowy do ${phone}`}>
+                    {phone}
+                </Link>
+            </div>
+
+            <Image src={photo} alt={name} className={styles.memberPhoto} />
         </li>
     )
 }
 
-export default OfferItem
+export default TeamMemberCard

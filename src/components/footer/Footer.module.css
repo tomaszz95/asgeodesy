@@ -38,9 +38,9 @@
 
 @media (min-width: 1100px) {
     .footer {
+        gap: 3rem;
         padding: 4rem 2rem 3rem;
         font-size: 1.15rem;
-        gap: 3rem;
     }
 
     .textData {

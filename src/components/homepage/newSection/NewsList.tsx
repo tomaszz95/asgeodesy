@@ -1,4 +1,5 @@
 import Link from 'next/link'
+
 import NewsItem from './NewsItem'
 
 import styles from './NewsList.module.css'

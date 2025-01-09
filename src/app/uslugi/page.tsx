@@ -3,6 +3,12 @@ import OfferSection from '../../components/servicesPage/offerSection/OfferSectio
 import RealizationsSection from '../../components/servicesPage/realizationsSection/RealizationsSection'
 import ReferencesSection from '../../components/servicesPage/referencesSection/ReferencesSection'
 
+export const metadata = {
+    title: 'ASGeodezja | Rodzaje usług geodezyjnych',
+    description:
+        'Dokładny spis usług geodezyjnych przeprowadzanych przez firmę ASGeodezja. Mapy do celów projektowych, pomiary powykonawcze, podziały i wznowienia.',
+}
+
 const ServicesPage = () => {
     return (
         <main>

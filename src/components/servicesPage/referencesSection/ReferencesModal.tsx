@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 import styles from './ReferencesModal.module.css'
 
 type ImageType = {
-    url: StaticImageData
+    photo: StaticImageData
     alt: string
 }
 
@@ -49,7 +49,7 @@ const ReferencesModal = ({ image, closeModal, images, currentIndex, onImageHandl
     return (
         <div className={styles.modal}>
             <div className={styles.overlay} onClick={closeModal}></div>
-            <Image src={image.url} alt={image.alt} width={900} height={1100} className={styles.modalImage} />
+            <Image src={image.photo} alt={image.alt} width={900} height={1100} className={styles.modalImage} />
             <button className={styles.closeButton} onClick={closeModal}>
                 X
             </button>
