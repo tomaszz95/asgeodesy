@@ -50,13 +50,21 @@ const ReferencesModal = ({ image, closeModal, images, currentIndex, onImageHandl
         <div className={styles.modal}>
             <div className={styles.overlay} onClick={closeModal}></div>
             <Image src={image.photo} alt={image.alt} width={900} height={1100} className={styles.modalImage} />
-            <button className={styles.closeButton} onClick={closeModal}>
+            <button className={styles.closeButton} onClick={closeModal} aria-label="Kliknij by wyłączyć przybliżenie">
                 X
             </button>
-            <button className={styles.prevButton} onClick={showPrevImage}>
+            <button
+                className={styles.prevButton}
+                onClick={showPrevImage}
+                aria-label="Kliknij by zobaczyć wcześniejszy dokument"
+            >
                 &lt;
             </button>
-            <button className={styles.nextButton} onClick={showNextImage}>
+            <button
+                className={styles.nextButton}
+                onClick={showNextImage}
+                aria-label="Kliknij by zobaczyć następny dokument"
+            >
                 &gt;
             </button>
         </div>

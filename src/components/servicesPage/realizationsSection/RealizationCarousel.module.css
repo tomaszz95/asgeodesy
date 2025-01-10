@@ -24,10 +24,10 @@
 .caption {
     position: absolute;
     bottom: 0;
+    padding: 2rem 0;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     color: var(--pure-white);
-    width: 100%;
-    padding: 2rem 0;
     font-size: 1rem;
     text-align: center;
     box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.5);

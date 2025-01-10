@@ -6,7 +6,14 @@ type ComponentType = {
 }
 
 const Header = ({ text, site }: ComponentType) => {
-    const siteImage = site === 'homepage' ? styles.homepage : site === 'services' ? styles.services : styles.aboutus
+    const siteImage =
+        site === 'homepage'
+            ? styles.homepage
+            : site === 'services'
+              ? styles.services
+              : site === 'contact'
+                ? styles.contact
+                : styles.aboutus
 
     return (
         <header className={styles.header}>

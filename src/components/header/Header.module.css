@@ -47,6 +47,11 @@
     background-position: center;
 }
 
+.contact {
+    background-image: url('../../../public/photos/contactHeroSmall.jpg');
+    background-position: center;
+}
+
 @keyframes letters {
     0% {
         opacity: 0;
@@ -73,5 +78,9 @@
 
     .aboutus {
         background-image: url('../../../public/photos/aboutusHeroBig.jpg');
+    }
+
+    .contact {
+        background-image: url('../../../public/photos/contactHeroBig.jpg');
     }
 }
