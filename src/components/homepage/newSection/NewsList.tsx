@@ -76,8 +76,15 @@ const NewsList = () => {
                 </p>
                 <p>
                     Aby zapoznać się dokładnie ze wszystkimi <b>wykonywanymi przez nas usługami</b> wystarczy wybrać
-                    zakładkę <Link href="/uslugi">USŁUGI</Link>. By dowiedzieć się więcej o naszej firmie należy wybrać
-                    zakładkę <Link href="/o-nas">O NAS</Link>.
+                    zakładkę{' '}
+                    <Link href="/uslugi" aria-label="Idź do strony usługi">
+                        USŁUGI
+                    </Link>
+                    . By dowiedzieć się więcej o naszej firmie należy wybrać zakładkę{' '}
+                    <Link href="/o-nas" aria-label="Idź do strony o nas">
+                        O NAS
+                    </Link>
+                    .
                 </p>
                 <p>
                     Jeżeli chcą Państwo zlecić nam pracę geodezyjną prosimy bardzo o przygotowanie{' '}

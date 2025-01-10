@@ -12,7 +12,7 @@ const Navigation = () => {
     return (
         <nav className={styles.nav}>
             <div className={styles.container}>
-                <Link href="/">
+                <Link href="/" aria-label='Link do strony głównej'>
                     <Image src={Logo} alt="Logo firmy ASGeodezja" priority />
                 </Link>
                 <MobileNav />

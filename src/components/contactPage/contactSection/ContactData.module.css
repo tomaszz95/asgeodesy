@@ -1,0 +1,41 @@
+.contactBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.contactInfo,
+.contactInfoList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.3rem;
+    text-align: center;
+    font-size: 1.05rem;
+}
+
+.contactInfo h3 {
+    margin-bottom: 1rem;
+    color: var(--complementary-color);
+}
+
+.contactInfoList span {
+    font-weight: bold;
+}
+
+.contactBox p {
+    padding-top: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    border-top: 2px solid rgb(158, 157, 157);
+}
+
+@media (min-width: 786px) {
+    .contactBox {
+        width: 50%;
+    }
+}
