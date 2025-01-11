@@ -1,26 +1,37 @@
-<h1>Geodesy site</h1>
+<h1>Geodesy Website</h1>
 
-<p>Hello, I present to you my company website project - completely finished and functional website for geodesy company.
-I work as a land surveyor in a moment of creating the page, so I decided to develop a website for a made-up geodesic company.</p>
+<p>Welcome! I’m thrilled to present my fully developed and functional website project for a geodesy company.  
+As a land surveyor at the time of creating this project, I decided to design and build a website for a fictional geodesy business.</p>
 
-<p>I encourage you to check the website - uploaded to vercel <a href='https://asgeodezja.vercel.app/'>ASGeodezja</a>.</p>
+<p>Feel free to explore the live version of the site, hosted on Vercel:  
+<a href="https://asgeodezja.vercel.app/">ASGeodezja</a>.</p>
 
-<h2>📫 Page contains</h2>
+<h2>📋 Features</h2>
 
-- main site and three site pages (services, about us and contact),
-- custom 404 page,
-- responsive design,
-- accessibility practices,
-- SEO practices,
-- basic design requirements preserved.
+<ul>
+  <li>A main page and three additional subpages:
+    <ul>
+      <li>Services</li>
+      <li>About Us</li>
+      <li>Contact</li>
+    </ul>
+  </li>
+  <li>Custom 404 error page</li>
+  <li>Fully responsive design</li>
+  <li>Accessibility-friendly practices</li>
+  <li>SEO-optimized structure</li>
+  <li>Adherence to core design principles</li>
+</ul>
 
-<h2>🛠 Used tools / programming languages / technologies</h2>
+<h2>🛠 Tools and Technologies</h2>
 
-- NextJS,
-- ReactJS,
-- Typescript,
-- JavaScript,
-- git / github.
+<ul>
+  <li>Next.js</li>
+  <li>React.js</li>
+  <li>TypeScript</li>
+  <li>JavaScript</li>
+  <li>Git / GitHub</li>
+</ul>
 
 <div align='center'>
 <img src='./public/readme/sitephoto1.jpg'>
