@@ -1,6 +1,6 @@
 import OfferItem from './OfferItem'
 
-import offerListItems from '../../../contants/offerListItems'
+import offerListItems from '../../../constants/offerListItems'
 
 import styles from './OfferItemsList.module.css'
 
