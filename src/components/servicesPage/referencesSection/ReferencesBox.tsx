@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 import ReferencesModal from './ReferencesModal'
 
-import referencesItems from '../../../contants/referencesItems'
+import referencesItems from '../../../constants/referencesItems'
 
 import styles from './ReferencesBox.module.css'
 

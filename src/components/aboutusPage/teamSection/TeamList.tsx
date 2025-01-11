@@ -1,6 +1,6 @@
 import TeamMemberCard from './TeamMemberCard'
 
-import teamMembers from '../../../contants/teamMembers'
+import teamMembers from '../../../constants/teamMembers'
 
 import styles from './TeamList.module.css'
 

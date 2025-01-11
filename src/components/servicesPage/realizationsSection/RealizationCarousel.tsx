@@ -7,7 +7,7 @@ import 'swiper/css/navigation'
 
 import Image from 'next/image'
 
-import sliderItems from '../../../contants/sliderItems'
+import sliderItems from '../../../constants/sliderItems'
 
 import styles from './RealizationCarousel.module.css'
 
