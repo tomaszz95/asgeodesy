@@ -6,7 +6,7 @@ As a land surveyor at the time of creating this project, I decided to design and
 <p>Feel free to explore the live version of the site, hosted on Vercel:  
 <a href="https://asgeodezja.vercel.app/">ASGeodezja</a>.</p>
 
-<p><strong>Note:</strong> The website is available in my native language - Polish.</p>
+<p><strong>Note:</strong> The website is available in my native language Polish.</p>
 
 <h2>📋 Features</h2>
 
