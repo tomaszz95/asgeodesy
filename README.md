@@ -1,9 +1,8 @@
 <h1>Geodesy Website</h1>
 
-<p>Welcome! I’m thrilled to present my fully developed and functional website project for a geodesy company.  
-As a land surveyor at the time of creating this project, I decided to design and build a website for a fictional geodesy business.</p>
+<p>Landing page for ASGeodezja is built with Next.js, delivering a modern, responsive design. It’s SEO-optimized and uses Next.js API routes for dynamic content delivery.</p>
 
-<p>Feel free to explore the live version of the site, hosted on Vercel:  
+<p>Check out the live demo hosted on Vercel:   
 <a href="https://asgeodezja.vercel.app/">ASGeodezja</a></p>
 
 <p><strong>Note:</strong> The website is available in my native language - Polish.</p>
@@ -11,6 +10,7 @@ As a land surveyor at the time of creating this project, I decided to design and
 <h2>📋 Features</h2>
 
 <ul>
+  <li>Fully functional business card website for a surveying company</li>
   <li>A main page and three additional subpages:
     <ul>
       <li>Services</li>
@@ -18,10 +18,10 @@ As a land surveyor at the time of creating this project, I decided to design and
       <li>Contact</li>
     </ul>
   </li>
-  <li>Custom 404 error page</li>
-  <li>Fully responsive design</li>
   <li>Accessibility-friendly practices</li>
   <li>SEO-optimized structure</li>
+  <li>Custom "Not Found" page</li>
+  <li>Fully responsive design</li>
   <li>Adherence to core design principles</li>
 </ul>
 
