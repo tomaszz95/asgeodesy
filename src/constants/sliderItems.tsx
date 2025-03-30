@@ -11,7 +11,7 @@ const sliderItems = [
     },
     {
         url: Slider2,
-        alt: 'Zdjęcie kopuły sufitu Luwru we Francji na tle nocnego nieba i pięknego pałacu',
+        alt: 'Zdjęcie kopuły sufitu Luwru weFrancji na tle nocnego nieba i majestatycznego pałacu',
         caption: 'Obsługa budowy Luwru  w Paryżu',
     },
     {
