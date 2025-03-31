@@ -57,7 +57,7 @@ const offerListItems = [
     {
         title: 'Ustalenie przebiegu nieruchomości',
         description:
-            'Odtworzenie granic nieruchomości w sytuacji, kiedy brak jest źródłowych dokumentów geodezyjnych, które dotyczą przedmiotowego odcinka granicy lub gdy zawarte w nich dane są niewiarygodne..',
+            'Odtworzenie granic nieruchomości w sytuacji, kiedy brak jest źródłowych dokumentów geodezyjnych, które dotyczą przedmiotowego odcinka granicy lub gdy zawarte w nich dane są niewiarygodne.',
         icon: Icon7,
         color: 'pink',
     },
