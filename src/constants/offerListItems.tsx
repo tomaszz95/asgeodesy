@@ -71,7 +71,7 @@ const offerListItems = [
     {
         title: 'Pomiary wysokościowe',
         description:
-            ' Zespół czynności technicznych pozwalających na precyzyjne określenie i kontrolę wysokości punktów / obiektów w terenie względem przyjętego poziomu odniesienia.',
+            'Zespół czynności technicznych pozwalających na precyzyjne określenie i kontrolę wysokości punktów / obiektów w terenie względem przyjętego poziomu odniesienia.',
         icon: Icon9,
         color: 'blue',
     },
