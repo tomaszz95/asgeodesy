@@ -3,7 +3,7 @@
 <p>Landing page for ASGeodezja is built with Next.js, delivering a modern, responsive design. It’s SEO-optimized and uses Next.js API routes for dynamic content delivery.</p>
 
 <p>Check out the live demo hosted on Vercel:   
-<a href="https://asgeodezja.vercel.app/">ASGeodezja</a></p>
+<a href="https://asgeodezja.vercel.app">ASGeodezja</a></p>
 
 <p><strong>Note:</strong> The website is available in my native language - Polish.</p>
 
